@@ -1,6 +1,6 @@
 ## There are 2 functions:
-## 1. makeCacheMatrix -- function to store matrix & its inverse
-## 2. cacheSolve -- function to cache inverse matrix if available; otherwise, calculate it
+## 1. makeCacheMatrix:  function to store matrix & its inverse
+## 2. cacheSolve: function to cache inverse matrix if available; otherwise, calculate it
 
 ##function to store matrix & its inverse
 makeCacheMatrix <- function(x = matrix()) {
